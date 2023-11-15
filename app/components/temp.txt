@@ -1,0 +1,77 @@
+ <a href="#">
+      <div className="flex flex-col items-center shadow bg-white rounded-lg md:flex-row   p-4 m-4">
+        <Image
+          className="object-cover rounded-t-lg h-auto w-4/5 md:w-1/2 md:rounded-none md:rounded-s-lg"
+          src={mercedesbenz}
+          alt=""
+        />
+        <div className="flex flex-col justify-between p-4 leading-normal bg-slate-200 w-full">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight">
+            Mercedese Benz S Class
+          </h5>
+
+          <div className="flex flex-1  text-gray-600 mb-2">
+            <div className=" flex flex-1 w-full justify-center">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div className="flex flex-1 justify-center">
+              <span>4 Bags</span>
+            </div>
+          </div>
+
+          <div className="flex flex-1  text-gray-600">
+            <div className=" flex flex-1 w-full justify-center">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div className="flex flex-1 justify-center">
+              <span>4 Bags</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+
+
+
+
+     <div className="flex flex-col">
+    <div className="bg-gray-200 text-lg">Mercedese Benz</div>
+    <div className="flex flex-row">
+      <div className="flex flex-1 bg-red-200"> <Image
+          className="object-cover rounded-t-lg h-auto w-4/5 md:w-1/2 md:rounded-none md:rounded-s-lg"
+          src={mercedesbenz}
+          alt=""
+        /></div>
+      <div className="flex flex-1">Col 2</div>
+    </div>
+  </div>
