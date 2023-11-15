@@ -2,7 +2,10 @@ import React from "react";
 import Image from "next/image";
 import mercedesbenz from "../../public/gallery/mercedes-benz-banner.png";
 import FacilityBadge from "./FacilityBadge";
-type Props = {};
+type Props = {
+  VehicleName: string;
+  ImageUrl: string;
+};
 export default function FleetCard(props: Props) {
   return (
     <div className="flex flex-col rounded-lg py-6">
