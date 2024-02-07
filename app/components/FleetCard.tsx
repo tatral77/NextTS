@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import mercedesbenz from "../../public/gallery/mercedes-benz-banner.png";
+import mercedesbenz from "../../public/Gallery/mercedes-benz-banner.png";
 import FacilityBadge from "./FacilityBadge";
 type Props = {
   VehicleName: string;

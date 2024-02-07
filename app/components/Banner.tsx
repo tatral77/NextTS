@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import oldCar from "../../public/gallery/old.png";
+import oldCar from "../../public/Gallery/old.png";
 
 type Props = {};
 export default function Banner() {

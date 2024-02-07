@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import Image from "next/image";
-import logo from "../../public/images/logo.png";
+import logo from "../../public/Images/logo.png";
 type Props = {};
 
 function Navbar({}: Props) {
